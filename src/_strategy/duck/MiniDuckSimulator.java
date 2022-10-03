@@ -8,14 +8,15 @@ import _strategy.duck._fly.FlyRocketPowered;
 public class MiniDuckSimulator {
     public static void main(String[] args) {
         Duck mallard = new MallardDuck();
+        mallard.display();
         mallard.performFly();
         mallard.performQuack();
-        mallard.display();
+
         System.out.println("---모델 덕---");
         Duck modelDuck = new ModelDuck();
+        modelDuck.display();
         modelDuck.performFly();
         modelDuck.performQuack();
-        modelDuck.display();
         modelDuck.setPerformFly(new FlyRocketPowered());
         modelDuck.performFly();
     }

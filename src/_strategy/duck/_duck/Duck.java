@@ -43,6 +43,7 @@ public abstract class Duck {
      * 오리의 전략을 변경할 수 있다.
      * */
     public void setPerformFly(FlyBehavior flyBehavior) {
+        System.out.println("나는 방법 변경 중...");
         this.flyBehavior = flyBehavior;
     }
     public void setQuackBehavior(QuackBehavior quackBehavior) {
