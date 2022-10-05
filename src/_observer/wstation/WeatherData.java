@@ -1,4 +1,4 @@
-package _observer;
+package _observer.wstation;
 
 import java.util.ArrayList;
 import java.util.List;

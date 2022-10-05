@@ -1,4 +1,4 @@
-package _observer;
+package _observer.wstation;
 
 public class CurrentConditionDisplay implements Observer, DisplayElement {
     private float temperature;
