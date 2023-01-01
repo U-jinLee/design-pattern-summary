@@ -1,4 +1,4 @@
-package _strategy._before;
+package _strategy.squidGame._before;
 
 public class GreenLightRedLight {
     private int speed;
@@ -16,7 +16,7 @@ public class GreenLightRedLight {
 
     }
 
-    public void redright() {
+    public void redLight() {
         if(this.speed == 1) {
             System.out.println("피었습니다.");
         } else if(this.speed == 2) {
