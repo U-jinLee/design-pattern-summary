@@ -1,4 +1,4 @@
-package _strategy.character._weapon;
+package _strategy.character._weapon_strategy;
 
 public class SwordBehavior implements WeaponBehavior {
 

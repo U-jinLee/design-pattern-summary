@@ -1,7 +1,7 @@
 package _strategy.duck._duck;
 
-import _strategy.duck._fly.FlyBehavior;
-import _strategy.duck._quack.QuackBehavior;
+import _strategy.duck._fly_strategy.FlyBehavior;
+import _strategy.duck._quack_strategy.QuackBehavior;
 
 /**
  * 오리의 추상화 클래스

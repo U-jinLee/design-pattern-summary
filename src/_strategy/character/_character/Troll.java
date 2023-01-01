@@ -1,6 +1,6 @@
 package _strategy.character._character;
 
-import _strategy.character._weapon.AxeBehavior;
+import _strategy.character._weapon_strategy.AxeBehavior;
 
 public class Troll extends Character {
     public Troll() {

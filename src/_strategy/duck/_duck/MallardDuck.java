@@ -1,7 +1,7 @@
 package _strategy.duck._duck;
 
-import _strategy.duck._fly.FlyWithWings;
-import _strategy.duck._quack.Quack;
+import _strategy.duck._fly_strategy.FlyWithWings;
+import _strategy.duck._quack_strategy.Quack;
 
 public class MallardDuck extends Duck {
 

@@ -1,6 +1,6 @@
 package _strategy.character._character;
 
-import _strategy.character._weapon.WeaponBehavior;
+import _strategy.character._weapon_strategy.WeaponBehavior;
 
 public abstract class Character {
     WeaponBehavior weaponBehavior;

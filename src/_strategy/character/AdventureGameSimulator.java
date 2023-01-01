@@ -3,7 +3,7 @@ package _strategy.character;
 import _strategy.character._character.Character;
 import _strategy.character._character.King;
 import _strategy.character._character.Troll;
-import _strategy.character._weapon.SwordBehavior;
+import _strategy.character._weapon_strategy.SwordBehavior;
 
 public class AdventureGameSimulator {
     public static void main(String[] args) {

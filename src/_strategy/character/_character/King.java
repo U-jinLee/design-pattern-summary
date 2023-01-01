@@ -1,6 +1,6 @@
 package _strategy.character._character;
 
-import _strategy.character._weapon.SwordBehavior;
+import _strategy.character._weapon_strategy.SwordBehavior;
 
 public class King extends Character {
 

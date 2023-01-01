@@ -3,7 +3,7 @@ package _strategy.duck;
 import _strategy.duck._duck.Duck;
 import _strategy.duck._duck.MallardDuck;
 import _strategy.duck._duck.ModelDuck;
-import _strategy.duck._fly.FlyRocketPowered;
+import _strategy.duck._fly_strategy.FlyRocketPowered;
 
 public class MiniDuckSimulator {
     public static void main(String[] args) {
