@@ -1,5 +1,6 @@
 package _strategy.squidGame;
 
+import _strategy.squidGame._after._strategy.Speed;
 import _strategy.squidGame._after._strategy.DjSpeed;
 import _strategy.squidGame._after._strategy.NormalSpeed;
 import _strategy.squidGame._before.GreenLightRedLight;
@@ -20,5 +21,16 @@ public class SquidGame {
 
         newGreenLightRedLight.greenRight(new NormalSpeed());
         newGreenLightRedLight.redLight(new DjSpeed());
+        newGreenLightRedLight.greenRight(new Speed() {
+            @Override
+            public void greenLight() {
+                System.out.println("복잡한 그린 라이트");
+            }
+
+            @Override
+            public void redLight() {
+                System.out.println("복잡한 레드 라이트");
+            }
+        });
     }
 }
