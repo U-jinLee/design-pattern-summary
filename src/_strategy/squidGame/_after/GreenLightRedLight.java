@@ -1,5 +1,7 @@
 package _strategy.squidGame._after;
 
+import _strategy.squidGame._after._strategy.Speed;
+
 public class GreenLightRedLight {
     private Speed speed;
 

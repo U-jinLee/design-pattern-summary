@@ -1,7 +1,5 @@
 package _strategy.squidGame._after._strategy;
 
-import _strategy.squidGame._after.Speed;
-
 public class DjSpeed implements Speed {
     @Override
     public void greenLight() {
