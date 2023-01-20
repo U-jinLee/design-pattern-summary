@@ -1,6 +1,6 @@
-package _decorator.Condiment;
+package _decorator.beveragedeco.beverage.Condiment;
 
-import _decorator.Beverage.Beverage;
+import _decorator.beveragedeco.beverage.Beverage;
 
 public abstract class CondimentDecorator extends Beverage {
     Beverage beverage;

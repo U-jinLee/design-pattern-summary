@@ -1,4 +1,4 @@
-package _decorator.Beverage;
+package _decorator.beveragedeco.beverage;
 
 public class HouseBlend extends Beverage {
     public HouseBlend() {

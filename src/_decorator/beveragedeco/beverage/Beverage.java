@@ -1,4 +1,4 @@
-package _decorator.Beverage;
+package _decorator.beveragedeco.beverage;
 
 public abstract class Beverage {
     private String description = "제목 없음";

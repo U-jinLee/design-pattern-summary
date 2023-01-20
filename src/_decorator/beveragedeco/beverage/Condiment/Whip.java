@@ -1,7 +1,6 @@
-package _decorator.Condiment;
+package _decorator.beveragedeco.beverage.Condiment;
 
-import _decorator.Beverage.Beverage;
-import _decorator.Condiment.CondimentDecorator;
+import _decorator.beveragedeco.beverage.Beverage;
 
 public class Whip extends CondimentDecorator {
     public Whip(Beverage beverage) {

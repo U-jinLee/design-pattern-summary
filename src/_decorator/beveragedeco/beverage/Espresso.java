@@ -1,4 +1,4 @@
-package _decorator.Beverage;
+package _decorator.beveragedeco.beverage;
 
 public class Espresso extends Beverage {
 

@@ -1,10 +1,6 @@
-package _decorator;
+package _decorator.beveragedeco.beverage;
 
-import _decorator.Beverage.Beverage;
-import _decorator.Beverage.Espresso;
-import _decorator.Beverage.HouseBlend;
-import _decorator.Condiment.Mocha;
-import _decorator.Condiment.Soy;
+import _decorator.beveragedeco.beverage.Condiment.Soy;
 
 public class StarBuzzCoffee {
 
