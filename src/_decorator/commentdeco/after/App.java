@@ -2,15 +2,17 @@ package _decorator.commentdeco.after;
 
 public class App {
     private static boolean enableSpamFilter = true;
-    private static boolean enableTrimming = false;
+    private static boolean enableTrimming = true;
 
     public static void main(String[] args) {
         CommentService commentService = new DefaultCommentService();
 
         if (enableSpamFilter) {
+            //스팸 필터 데코레이터 적용
             commentService = new SpamFilteringCommentDecorator(commentService);
         }
         if (enableTrimming) {
+            // 필요 없는 문자 자르기 데코레이터 적용
             commentService = new TrimmingDecorator(commentService);
         }
 
