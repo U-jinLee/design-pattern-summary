@@ -4,7 +4,7 @@ package _flyweight.after;
 /**
  *
  * */
-public final class Font {
+public class Font {
     final String family;
     final int size;
 

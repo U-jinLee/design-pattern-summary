@@ -4,10 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class FontFactory {
-    private Map<String, Font> cache = new HashMap<>();
+    private static final Map<String, Font> cache = new HashMap<>();
 
 
-    public Font getFont(String font) {
+    public static Font getFont(String font) {
         if(cache.containsKey(font)) {
             return cache.get(font);
         } else {
