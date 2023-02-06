@@ -1,4 +1,4 @@
-package _chainofresponsibility;
+package _chainofresponsibility.before;
 
 public class Request {
     private String body;
