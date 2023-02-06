@@ -7,8 +7,8 @@ public class LoggingHandler extends RequestHandler {
     }
 
     @Override
-    public void handle(Request request) {
+    public void handleRequest(Request request) {
         System.out.println("로깅이 됐는가?");
-        super.handle(request);
+        super.handleRequest(request);
     }
 }

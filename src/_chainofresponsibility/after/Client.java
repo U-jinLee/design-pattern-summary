@@ -10,7 +10,7 @@ public class Client {
     }
     public void doWork() {
         Request request = new Request("이번 놀이는 뽑기입니다.");
-        requestHandler.handle(request);
+        requestHandler.handleRequest(request);
     }
     public static void main(String[] args) {
         RequestHandler chain = new AuthHandler(new LoggingHandler(new PrintRequestHandler(null)));

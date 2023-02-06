@@ -7,8 +7,8 @@ public class PrintRequestHandler extends RequestHandler {
     }
 
     @Override
-    public void handle(Request request) {
+    public void handleRequest(Request request) {
         System.out.println(request.getBody());
-        super.handle(request);
+        super.handleRequest(request);
     }
 }
