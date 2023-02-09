@@ -1,4 +1,4 @@
-package Builder;
+package _builder;
 
 public class DefaultTourBuilder implements TourPlanBuilder{
 

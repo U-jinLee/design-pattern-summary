@@ -17,6 +17,6 @@ public abstract class RequestHandler {
      *
      * */
     public void handleRequest(Request request) {
-        if(next != null) next.handleRequest(request);
+        if(Objects.nonNull(next)) next.handleRequest(request);
     }
 }

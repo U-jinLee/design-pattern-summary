@@ -1,4 +1,4 @@
-package Builder;
+package _builder;
 
 public interface TourPlanBuilder {
     TourPlanBuilder title(String title);
