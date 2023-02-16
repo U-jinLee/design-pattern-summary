@@ -1,4 +1,7 @@
-package _adapter.before.security;
+package _adapter.before;
+
+import _adapter.before.security.UserDetails;
+import _adapter.before.security.UserDetailsService;
 
 public class LoginHandler {
     UserDetailsService userDetailsService;
