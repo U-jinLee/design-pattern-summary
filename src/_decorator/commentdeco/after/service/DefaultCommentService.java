@@ -1,4 +1,4 @@
-package _decorator.commentdeco.after;
+package _decorator.commentdeco.after.service;
 
 public class DefaultCommentService implements CommentService {
     @Override

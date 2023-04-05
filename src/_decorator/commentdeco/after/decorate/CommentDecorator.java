@@ -1,4 +1,6 @@
-package _decorator.commentdeco.after;
+package _decorator.commentdeco.after.decorate;
+
+import _decorator.commentdeco.after.service.CommentService;
 
 public class CommentDecorator implements CommentService {
     private CommentService commentService;

@@ -1,5 +1,10 @@
 package _decorator.commentdeco.after;
 
+import _decorator.commentdeco.after.decorate.SpamFilteringCommentDecorator;
+import _decorator.commentdeco.after.decorate.TrimmingDecorator;
+import _decorator.commentdeco.after.service.CommentService;
+import _decorator.commentdeco.after.service.DefaultCommentService;
+
 public class App {
     private static boolean enableSpamFilter = true;
     private static boolean enableTrimming = true;

@@ -1,5 +1,7 @@
 package _decorator.commentdeco.after;
 
+import _decorator.commentdeco.after.service.CommentService;
+
 public class Client {
     private CommentService commentService;
 

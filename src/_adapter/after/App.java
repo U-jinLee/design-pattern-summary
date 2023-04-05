@@ -11,5 +11,10 @@ public class App {
         LoginHandler loginHandler = new LoginHandler(userDetailsService);
         String userName = loginHandler.login("admin", "admin");
         System.out.println(userName);
+
+        AccountService accountService2 = new AccountService();
+        LoginHandler loginHandler2 = new LoginHandler(accountService2);
+        String userName2 = loginHandler2.login("admin", "admin");
+        System.out.println(userName2);
     }
 }
